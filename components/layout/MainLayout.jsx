@@ -1,7 +1,7 @@
 // components/layout/MainLayout.jsx
 import { useAuth } from '../../lib/auth';
 import Navbar from './Navbar';
-import Sidebar from './sidebar';
+import Sidebar from './Sidebar';
 
 export default function MainLayout({ children }) {
   const { isAuthenticated, loading } = useAuth();
